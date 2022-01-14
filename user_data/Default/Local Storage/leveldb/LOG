@@ -1,0 +1,6 @@
+2021/11/22-15:55:02.960 5303 Reusing MANIFEST /Users/cipheradmin/Documents/mini_bot/user_data/Default/Local Storage/leveldb/MANIFEST-000001
+2021/11/22-15:55:02.970 5303 Recovering log #86
+2021/11/22-15:55:02.974 5303 Reusing old log /Users/cipheradmin/Documents/mini_bot/user_data/Default/Local Storage/leveldb/000086.log 
+2021/11/22-16:33:06.813 4f1b Level-0 table #91: started
+2021/11/22-16:33:06.840 4f1b Level-0 table #91: 9027 bytes OK
+2021/11/22-16:33:06.891 4f1b Delete type=0 #86

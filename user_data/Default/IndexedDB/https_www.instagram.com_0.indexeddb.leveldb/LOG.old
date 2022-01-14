@@ -1,0 +1,12 @@
+2021/11/10-10:55:40.932 10c3b Reusing MANIFEST /Users/cipheradmin/Documents/mini_bot/user_data/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/10-10:55:40.932 10c3b Recovering log #713
+2021/11/10-10:55:40.937 10c3b Reusing old log /Users/cipheradmin/Documents/mini_bot/user_data/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000713.log 
+2021/11/10-10:55:42.694 2292b Level-0 table #718: started
+2021/11/10-10:55:42.775 2292b Level-0 table #718: 737365 bytes OK
+2021/11/10-10:55:42.873 2292b Delete type=0 #713
+2021/11/10-10:57:41.745 281b7 Compacting 1@1 + 1@2 files
+2021/11/10-10:57:41.806 281b7 Generated table #719@1: 74 keys, 35847 bytes
+2021/11/10-10:57:41.806 281b7 Compacted 1@1 + 1@2 files => 35847 bytes
+2021/11/10-10:57:41.934 281b7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/10-10:57:41.935 281b7 Delete type=2 #715
+2021/11/10-10:57:41.935 281b7 Delete type=2 #718
