@@ -1,3 +1,3 @@
-2021/11/10-10:32:48.570 7103 Reusing MANIFEST /Users/cipheradmin/Documents/mini_bot/user_data/Default/Sync Data/LevelDB/MANIFEST-000001
-2021/11/10-10:32:48.581 7103 Recovering log #3
-2021/11/10-10:32:48.583 7103 Reusing old log /Users/cipheradmin/Documents/mini_bot/user_data/Default/Sync Data/LevelDB/000003.log 
+2022/06/06-15:11:21.903 ba03 Reusing MANIFEST /Users/fabianrydel/Documents/mini_bot/user_data/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/06/06-15:11:21.903 ba03 Recovering log #3
+2022/06/06-15:11:21.904 ba03 Reusing old log /Users/fabianrydel/Documents/mini_bot/user_data/Default/Sync Data/LevelDB/000003.log 

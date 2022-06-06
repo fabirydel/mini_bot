@@ -2,18 +2,17 @@ require 'puppeteer'
 require 'pry-byebug'
 
 class Bot
-  HEART = 'fr66n'
-  USERNAME = 'e1e1d'
-  LIKES = 'zV_Nj'
-  COMMENTER_NAME = "ZIAjV"
-  POST_BUTTON = 'y3zKF'
-  COMMENT_INPUT = 'Ypffh'
+  HEART = '_aamw'
+  USERNAME = '_aaqt'
+  LIKES = '_a6hd'
+  COMMENTER_NAME = "_a9zc"
+  POST_BUTTON = '_acan'
+  COMMENT_INPUT = '_ablz'
 
   BLACKLIST = ['hotel, hostel', 'relax', 'travel', 'couple', 'stay', 'official', 'visit', 'tour', 'explore', 'wander', 'adventure', 'discover', 'trip', 'backpack']
 
   def self.sleep_interval
-    # rand(12..15)
-    10
+    rand(7..9)
   end
 
   def self.run(hashtag = nil, likes_thershold: 80, followers_thershold: 800, limit: 150)
@@ -25,8 +24,6 @@ class Bot
       page.goto('https://instagram.com/', wait_until: 'domcontentloaded')
 
       sleep sleep_interval
-
-  binding.pry
 
       if hashtag.present?
         sleep sleep_interval
@@ -46,8 +43,8 @@ class Bot
         page.keyboard.press('Enter')
 
         # Open first recent photo
-        page.wait_for_selector('._bz0w')
-        page.SS('div._bz0w')[9].click
+        page.wait_for_selector('._aagw')
+        page.SS('div._aagw')[9].click
 
         liked_users = []
         discarded_users = []
@@ -169,10 +166,10 @@ class Bot
           sleep sleep_interval
 
           next if page.SS('.dialog-404').present?
-          next if !page.SS('._bz0w').present?
+          next if !page.SS('._aagw').present?
 
-          page.wait_for_selector('._bz0w')
-          page.SS('div._bz0w')[0].click
+          page.wait_for_selector('._aagw')
+          page.SS('div._aagw')[0].click
 
           page.wait_for_selector(".#{USERNAME}")
           user_name = page.SS("div.#{USERNAME}").first.evaluate('el => el.textContent')
@@ -220,8 +217,8 @@ class Bot
           # Hover on user's name to see followers
           begin
             page.SS("div.#{USERNAME}").first.hover
-            page.wait_for_selector('.lOXF2')
-            followers = page.SS('span.lOXF2')[1].evaluate('el => el.textContent').gsub(',', '').to_i
+            page.wait_for_selector('._ac2a')
+            followers = page.SS('span._ac2a')[1].evaluate('el => el.textContent').gsub(',', '').to_i
           rescue
             followers = 1
           end

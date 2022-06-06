@@ -1,3 +1,27 @@
-2021/11/10-10:32:48.686 5203 Reusing MANIFEST /Users/cipheradmin/Documents/mini_bot/user_data/Default/Local Storage/leveldb/MANIFEST-000001
-2021/11/10-10:32:48.710 5203 Recovering log #86
-2021/11/10-10:32:48.711 5203 Reusing old log /Users/cipheradmin/Documents/mini_bot/user_data/Default/Local Storage/leveldb/000086.log 
+2022/06/06-15:11:22.011 3003 Reusing MANIFEST /Users/fabianrydel/Documents/mini_bot/user_data/Default/Local Storage/leveldb/MANIFEST-000001
+2022/06/06-15:11:22.012 3003 Recovering log #730
+2022/06/06-15:11:22.013 3003 Reusing old log /Users/fabianrydel/Documents/mini_bot/user_data/Default/Local Storage/leveldb/000730.log 
+2022/06/06-15:31:24.420 2337 Level-0 table #735: started
+2022/06/06-15:31:24.440 2337 Level-0 table #735: 8936 bytes OK
+2022/06/06-15:31:24.479 2337 Delete type=0 #730
+2022/06/06-15:52:24.500 4153 Level-0 table #737: started
+2022/06/06-15:52:24.521 4153 Level-0 table #737: 8799 bytes OK
+2022/06/06-15:52:24.560 4153 Delete type=0 #734
+2022/06/06-16:13:24.526 235f Level-0 table #739: started
+2022/06/06-16:13:24.566 235f Level-0 table #739: 8363 bytes OK
+2022/06/06-16:13:24.598 235f Delete type=0 #736
+2022/06/06-16:40:24.550 4193 Level-0 table #741: started
+2022/06/06-16:40:24.571 4193 Level-0 table #741: 9060 bytes OK
+2022/06/06-16:40:24.608 4193 Delete type=0 #738
+2022/06/06-16:40:24.612 4c2b Compacting 4@0 + 1@1 files
+2022/06/06-16:40:24.694 4c2b Generated table #742@0: 179758 keys, 1886937 bytes
+2022/06/06-16:40:24.694 4c2b Compacted 4@0 + 1@1 files => 1886937 bytes
+2022/06/06-16:40:24.729 4c2b compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/06-16:40:24.730 4c2b Delete type=2 #739
+2022/06/06-16:40:24.730 4c2b Delete type=2 #741
+2022/06/06-16:40:24.730 4c2b Delete type=2 #732
+2022/06/06-16:40:24.730 4c2b Delete type=2 #737
+2022/06/06-16:40:24.730 4c2b Delete type=2 #735
+2022/06/06-17:01:24.573 4eaf Level-0 table #744: started
+2022/06/06-17:01:24.595 4eaf Level-0 table #744: 8960 bytes OK
+2022/06/06-17:01:24.633 4eaf Delete type=0 #740

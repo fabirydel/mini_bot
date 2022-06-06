@@ -1,3 +1,18 @@
-2021/11/10-10:32:53.682 5203 Reusing MANIFEST /Users/cipheradmin/Documents/mini_bot/user_data/Default/Session Storage/MANIFEST-000001
-2021/11/10-10:32:53.682 5203 Recovering log #36
-2021/11/10-10:32:53.683 5203 Reusing old log /Users/cipheradmin/Documents/mini_bot/user_data/Default/Session Storage/000036.log 
+2022/06/06-15:11:22.243 3003 Reusing MANIFEST /Users/fabianrydel/Documents/mini_bot/user_data/Default/Session Storage/MANIFEST-000001
+2022/06/06-15:11:22.246 3003 Recovering log #210
+2022/06/06-15:11:22.247 3003 Reusing old log /Users/fabianrydel/Documents/mini_bot/user_data/Default/Session Storage/000210.log 
+2022/06/06-15:34:24.402 4c17 Level-0 table #214: started
+2022/06/06-15:34:24.421 4c17 Level-0 table #214: 11534 bytes OK
+2022/06/06-15:34:24.462 4c17 Delete type=0 #210
+2022/06/06-16:54:59.532 4c3b Level-0 table #216: started
+2022/06/06-16:54:59.552 4c3b Level-0 table #216: 10781 bytes OK
+2022/06/06-16:54:59.590 4c3b Delete type=0 #213
+2022/06/06-16:54:59.592 360f Compacting 4@0 + 1@1 files
+2022/06/06-16:54:59.621 360f Generated table #217@0: 26110 keys, 301351 bytes
+2022/06/06-16:54:59.621 360f Compacted 4@0 + 1@1 files => 301351 bytes
+2022/06/06-16:54:59.658 360f compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/06-16:54:59.659 360f Delete type=2 #216
+2022/06/06-16:54:59.659 360f Delete type=2 #214
+2022/06/06-16:54:59.659 360f Delete type=2 #211
+2022/06/06-16:54:59.659 360f Delete type=2 #206
+2022/06/06-16:54:59.659 360f Delete type=2 #208
